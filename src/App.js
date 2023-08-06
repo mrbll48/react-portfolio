@@ -1,6 +1,9 @@
-import "./App.css";
-import Header from "./components/Project";
+import Navigation from "./components/Navigation";
 
-const App = () => <Header />;
-
-export default App;
+export default function App() {
+  return (
+    <div>
+      <Navigation />
+    </div>
+  );
+}
