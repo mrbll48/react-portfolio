@@ -13,11 +13,11 @@ export default function Navigation() {
       case "About":
         return <About />;
       case "Contact":
-        return <Contact />;
+      // return <Contact />;
       case "Portfolio":
         return <Portfolio />;
       case "Resume":
-        return <Resume />;
+      // return <Resume />;
       default:
         console.log(`Sorry, ${currentPage} does not exist`);
     }
