@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./components/pages/About";
 import Portfolio from "./components/pages/Portfolio";
 import Header from "./components/Header";
+import Contact from "./components/pages/Contact";
+import Resume from "./components/pages/Resume";
 
 export default function App() {
   return (
@@ -10,9 +12,9 @@ export default function App() {
       <Header />
       <Routes>
         <Route path={"/"} element={<About />} />
-        {/* <Route path={"/"} element={<Contac} /> */}
+        <Route path={"/contact"} element={<Contact />} />
         <Route path={"/portfolio"} element={<Portfolio />} />
-        {/* <Route path={"/"} element={<About />} /> */}
+        <Route path={"/resume"} element={<Resume />} />
       </Routes>
     </Router>
   );

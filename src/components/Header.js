@@ -10,6 +10,12 @@ export default function Header() {
       <Link to="/portfolio">
         <button>Portfolio</button>
       </Link>
+      <Link to="/contact">
+        <button>Contact</button>
+      </Link>
+      <Link to="/resume">
+        <button>Resume</button>
+      </Link>
     </nav>
   );
 }
