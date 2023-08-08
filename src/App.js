@@ -5,6 +5,7 @@ import Portfolio from "./components/pages/Portfolio";
 import Header from "./components/Header";
 import Contact from "./components/pages/Contact";
 import Resume from "./components/pages/Resume";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path={"/portfolio"} element={<Portfolio />} />
         <Route path={"/resume"} element={<Resume />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
