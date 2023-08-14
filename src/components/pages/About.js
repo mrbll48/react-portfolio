@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section id="about">
-      <div className="">
+      <div className="p-3 bg-secondary text-white aboutMe">
         <h1>About Me</h1>
         <p>
           About Me Hello there! I'm [Your Name], a passionate and creative web

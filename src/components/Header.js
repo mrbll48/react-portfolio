@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <div className="navbar navbar-expand-md navbar-dark bg-dark">
+    <div className="navbar navbar-expand-md navbar-dark bg-secondary">
       <nav className="navbare w-100 order-3 dual-collapse2">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <Link to="/">
-              <button class="">Home</button>
+              <button className="">Home</button>
             </Link>
           </li>
           <Link to="/portfolio">

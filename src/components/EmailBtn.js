@@ -1,18 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-const BtnMailTo = ({ mailto, label }) => {
-  return (
-    <Link
-      to="#"
-      onClick={(e) => {
-        window.location.href = mailto;
-        e.preventDefault();
-      }}
-    >
-      {label}
-    </Link>
-  );
+const MailToBtn = ({ mailto, label }) => {
+  return <a href={`mailto:william.marks87@gmail.com`}>{label}</a>;
 };
 
-export default BtnMailTo;
+export default MailToBtn;
