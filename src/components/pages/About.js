@@ -1,15 +1,16 @@
+import MailToBtn from "../EmailBtn";
+
 export default function About() {
   return (
-    <section id="about">
+    <section id="about" className="vh-100">
       <div className="p-3 bg-secondary text-white aboutMe">
         <h1>About Me</h1>
         <p>
-          About Me Hello there! I'm [Your Name], a passionate and creative web
+          About Me Hello there! I'm William Marks, a passionate and creative web
           developer with a love for crafting engaging and user-friendly digital
-          experiences. With a background in [mention any relevant fields, e.g.,
-          computer science, design], I've spent [X years] immersed in the world
-          of web development, honing my skills and embracing the ever-evolving
-          nature of technology. I believe that the web is a canvas for limitless
+          experiences. I've spent 6 months immersed in the world of web
+          development, honing my skills and embracing the ever-evolving nature
+          of technology. I believe that the web is a canvas for limitless
           possibilities, and I'm dedicated to turning ideas into beautifully
           functional websites and web applications. My journey began by learning
           the basics of HTML and CSS, but I quickly found myself delving into
@@ -37,8 +38,14 @@ export default function About() {
           the opportunity to collaborate with fellow creators. If you're looking
           to bring your web ideas to life, I'd love to be a part of your
           journey. Let's work together to turn your vision into a reality! Feel
-          free to reach out at [Your Email Address] for inquiries,
-          collaborations, or just to say hello. Cheers, [Your Name]
+          free to reach out at
+          {
+            <MailToBtn
+              label=" william.marks87@gmail.com "
+              mailto="william.marks87@gmail.com"
+            />
+          }
+          for inquiries, collaborations, or just to say hello. Cheers, William
         </p>
       </div>
     </section>

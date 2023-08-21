@@ -1,6 +1,6 @@
 export default function Resume() {
   return (
-    <div className="p-3 mb-2 bg-secondary text-white">
+    <div className="p-3 bg-secondary text-white vh-100">
       <a href="../../../Assets/WMarks-Resume.pdf" download>
         <p>Download my resume</p>
       </a>
