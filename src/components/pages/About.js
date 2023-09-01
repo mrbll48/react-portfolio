@@ -2,8 +2,8 @@ import MailToBtn from "../EmailBtn";
 
 export default function About() {
   return (
-    <section id="about" className="vh-100">
-      <div className="p-3 bg-secondary text-white aboutMe">
+    <section id="about">
+      <div className="p-3 text-white aboutMe">
         <h1>About Me</h1>
         <p>
           About Me Hello there! I'm William Marks, a passionate and creative web

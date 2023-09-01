@@ -3,27 +3,35 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <div className="navbar navbar-expand-md navbar-dark bg-secondary sticky-top">
+    <div className="navbar navbar-expand-md navbar-dark sticky-top">
       <nav className="navbar w-100 order-3 dual-collapse2 justify-content-end">
         <ul className="navbar-nav ml-auto justify-content-end">
           <li className="nav-item">
             <Link to="/">
-              <p className="nav-link">About Me</p>
+              <p className="nav-link bs-primary text-light border border-dark rounded m-1">
+                About Me
+              </p>
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/portfolio">
-              <p className="nav-link">Portfolio</p>
+              <p className="nav-link text-light border border-dark rounded m-1">
+                Portfolio
+              </p>
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/contact">
-              <p className="nav-link">Contact</p>
+              <p className="nav-link text-light border border-dark rounded m-1">
+                Contact
+              </p>
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/resume">
-              <p className="nav-link">Resume</p>
+              <p className="nav-link text-light border border-dark rounded m-1">
+                Resume
+              </p>
             </Link>
           </li>
         </ul>

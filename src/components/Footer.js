@@ -2,7 +2,7 @@ import MailToBtn from "./EmailBtn";
 
 export default function Footer() {
   return (
-    <div className="p-3 mb-2 bg-secondary text-white navbar fixed-bottom">
+    <div className="p-3 bg-dark text-white navbar fixed-bottom">
       <ul className="navbar-nav list-group list-group-horizontal footerUl mx-auto">
         <li className="nav-item active footerLink">
           <a href="https://www.github.com/mrbll48">

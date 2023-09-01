@@ -14,10 +14,10 @@
     "image": "messengerapp.jpg"
   },
   {
-    "title": "Coming Soon!",
-    "description": "",
-    "github": "",
-    "deployedLink": "",
-    "image": ""
+    "title": "Fit Track",
+    "description": "Workout Social Media",
+    "github": "https://github.com/mrbll48/workout-tracker",
+    "deployedLink": "https://desolate-eyrie-82722-36505de48b12.herokuapp.com/",
+    "image": "fit-tracker.png"
   }
 ]
