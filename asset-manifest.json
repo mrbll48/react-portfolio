@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.1e51d754.css",
-    "main.js": "/react-portfolio/static/js/main.8e077d3a.js",
+    "main.js": "/react-portfolio/static/js/main.8aeedd74.js",
     "static/media/waistwatchers.jpg": "/react-portfolio/static/media/waistwatchers.be17737aed042ee786f6.jpg",
     "static/media/fit-tracker.png": "/react-portfolio/static/media/fit-tracker.1af0bc67c7c9e44a1c53.png",
     "static/media/messengerapp.jpg": "/react-portfolio/static/media/messengerapp.0dbf851f07fdf5f2922d.jpg",
+    "static/media/linkedin.png": "/react-portfolio/static/media/linkedin.68ac41e1459436bfd38f.png",
     "index.html": "/react-portfolio/index.html",
     "main.1e51d754.css.map": "/react-portfolio/static/css/main.1e51d754.css.map",
-    "main.8e077d3a.js.map": "/react-portfolio/static/js/main.8e077d3a.js.map"
+    "main.8aeedd74.js.map": "/react-portfolio/static/js/main.8aeedd74.js.map"
   },
   "entrypoints": [
     "static/css/main.1e51d754.css",
-    "static/js/main.8e077d3a.js"
+    "static/js/main.8aeedd74.js"
   ]
 }
