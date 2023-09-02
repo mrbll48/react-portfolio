@@ -1,4 +1,6 @@
 import MailToBtn from "./EmailBtn";
+import github from "../images/github.png";
+import linkedin from "../images/linkedin.png";
 
 export default function Footer() {
   return (
@@ -6,22 +8,14 @@ export default function Footer() {
       <ul className="navbar-nav list-group list-group-horizontal footerUl mx-auto">
         <li className="nav-item active footerLink">
           <a href="https://www.github.com/mrbll48">
-            <img src="github.png" className="footerImg" />
+            <img src={github} className="footerImg" alt="github" />
           </a>
         </li>
         <li className="nav-item active footerLink">
           <a href="https://www.linkedin.com/in/williammarks87/">
-            <img src="linkedin.png" className="footerImg" />
+            <img src={linkedin} className="footerImg" alt="linkedin" />
           </a>
         </li>
-        {/* <li>
-          {
-            <MailToBtn
-              label="Write me an E-Mail"
-              mailto="william.marks87@gmail.com"
-            />
-          }
-        </li> */}
       </ul>
     </div>
   );

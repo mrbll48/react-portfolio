@@ -1,6 +1,8 @@
 import React from "react";
-import Project from "../Project";
+import Project, { WaistWatchers } from "../Projects/WaistWatchers";
 import projects from "../data/Projects.json";
+import { MessengerApp } from "../Projects/MessengerApp";
+import { FitTracker } from "../Projects/FitTracker";
 
 export default function Portfolio() {
   return (
@@ -10,9 +12,9 @@ export default function Portfolio() {
         <p>View my projects below!</p>
       </div>
       <div id="projectCards">
-        {projects.map((project) => (
-          <Project data={project} />
-        ))}
+        <WaistWatchers />
+        <MessengerApp />
+        <FitTracker />
       </div>
     </section>
   );
