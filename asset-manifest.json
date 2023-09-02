@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.1e51d754.css",
-    "main.js": "/react-portfolio/static/js/main.8cbd7dbc.js",
+    "main.css": "/react-portfolio/static/css/main.803dde3c.css",
+    "main.js": "/react-portfolio/static/js/main.c4000b4a.js",
     "static/media/waistwatchers.jpg": "/react-portfolio/static/media/waistwatchers.be17737aed042ee786f6.jpg",
     "static/media/fit-tracker.png": "/react-portfolio/static/media/fit-tracker.1af0bc67c7c9e44a1c53.png",
+    "static/media/meeee.jpg": "/react-portfolio/static/media/meeee.caa4e78baaa7f764b07f.jpg",
     "static/media/messengerapp.jpg": "/react-portfolio/static/media/messengerapp.0dbf851f07fdf5f2922d.jpg",
     "static/media/linkedin.png": "/react-portfolio/static/media/linkedin.68ac41e1459436bfd38f.png",
     "index.html": "/react-portfolio/index.html",
-    "main.1e51d754.css.map": "/react-portfolio/static/css/main.1e51d754.css.map",
-    "main.8cbd7dbc.js.map": "/react-portfolio/static/js/main.8cbd7dbc.js.map"
+    "main.803dde3c.css.map": "/react-portfolio/static/css/main.803dde3c.css.map",
+    "main.c4000b4a.js.map": "/react-portfolio/static/js/main.c4000b4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e51d754.css",
-    "static/js/main.8cbd7dbc.js"
+    "static/css/main.803dde3c.css",
+    "static/js/main.c4000b4a.js"
   ]
 }
