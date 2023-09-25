@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <div className="navbar navbar-expand-md navbar-dark sticky-top">
+    <div className="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
       <nav className="navbar w-100 order-3 dual-collapse2 justify-content-end">
         <ul className="navbar-nav ml-auto justify-content-end">
           <li className="nav-item">

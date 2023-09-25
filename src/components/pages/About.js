@@ -1,9 +1,16 @@
 import MailToBtn from "../EmailBtn";
+import meeee from "../../images/meeee.jpg";
 
 export default function About() {
   return (
     <section id="about">
       <div className="p-3 text-white aboutMe">
+        <img
+          src={meeee}
+          className="meee"
+          style={{ width: 200, height: 200 }}
+          alt="me"
+        ></img>
         <h1>About Me</h1>
         <p>
           About Me Hello there! I'm William Marks, a passionate and creative web
