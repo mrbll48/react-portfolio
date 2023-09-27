@@ -20,6 +20,8 @@ export default function Resume() {
       </ul>
       <a
         href="https://docs.google.com/document/d/1U5NDiTm6PUk1YYPyATPn_3-UyQVDcognvWl_D0k3wdY/edit?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
         download
       >
         <p className="text-white mx-auto">Download my resume</p>
