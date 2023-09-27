@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.803dde3c.css",
-    "main.js": "/react-portfolio/static/js/main.67bddddd.js",
+    "main.js": "/react-portfolio/static/js/main.e969b639.js",
     "static/media/waistwatchers.jpg": "/react-portfolio/static/media/waistwatchers.be17737aed042ee786f6.jpg",
     "static/media/fit-tracker.png": "/react-portfolio/static/media/fit-tracker.1af0bc67c7c9e44a1c53.png",
     "static/media/meeee.jpg": "/react-portfolio/static/media/meeee.caa4e78baaa7f764b07f.jpg",
@@ -9,10 +9,10 @@
     "static/media/linkedin.png": "/react-portfolio/static/media/linkedin.68ac41e1459436bfd38f.png",
     "index.html": "/react-portfolio/index.html",
     "main.803dde3c.css.map": "/react-portfolio/static/css/main.803dde3c.css.map",
-    "main.67bddddd.js.map": "/react-portfolio/static/js/main.67bddddd.js.map"
+    "main.e969b639.js.map": "/react-portfolio/static/js/main.e969b639.js.map"
   },
   "entrypoints": [
     "static/css/main.803dde3c.css",
-    "static/js/main.67bddddd.js"
+    "static/js/main.e969b639.js"
   ]
 }
